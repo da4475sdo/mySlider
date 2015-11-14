@@ -58,7 +58,7 @@
 			_.i = 0;
 
 			//  Set the main element
-			el.css({position: 'relative',width: _.max[0], height: el.outerHeight(), overflow: 'hidden'});
+			el.css({position: 'relative',width: _.max[0], height: li.outerHeight(), overflow: 'hidden'});
 			//  Set the relative widths
 			ul.css({position: 'relative', left: 0, width: (len * 100) + '%'});
 			if(o.fluid) {
